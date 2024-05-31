@@ -38,13 +38,13 @@ module.exports = {
   PACKNAME: process.env.PACKNAME || "☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬",
   WELCOME_MSG: process.env.WELCOME_MSG || `Hi @user Welcome to @gname\n\n☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬`,
   GOODBYE_MSG: process.env.GOODBYE_MSG || `Hi @user It was Nice Seeing you\n\n☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬`,
-  AUTHOR: process.env.AUTHOR || "Tᴀɪʀᴀ•Mᴀᴋɪɴᴏ",
-  MODS: process.env.MODS || "2347080968564",//Add Sudo numbers here.
-  SUDO: process.env.SUDO || "2347080968564",//Also sudo numbers
+  AUTHOR: process.env.AUTHOR || "𖤇𝞓𝞜𝙅𝞓𝞜𖤇",
+  MODS: process.env.MODS || "919883457657",//Add Sudo numbers here.
+  SUDO: process.env.SUDO || "919883457657",//Also sudo numbers
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "2347080968564",
-  OWNER_NAME: process.env.OWNER_NAME || "Tᴀɪʀᴀ✧Mᴀᴋɪɴᴏ",
+  OWNER_NAME: process.env.OWNER_NAME || "𖤍𝞓𝞜𝙅𝞓𝞜𖤍",
   HEROKU: toBool(process.env.HEROKU) || true,
   BOT_NAME: process.env.BOT_NAME || "☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬",
   PROCESSNAME: process.env.PROCESSNAME || "HOTARO-MD",
