@@ -21,12 +21,12 @@ const config = require("../config");
             contextInfo: {
                 externalAdReply: {
                     title: Config.OWNER_NAME,
-                    body: '☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬',
+                    body: '𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋',
                     renderLargerThumbnail: true,
-                    thumbnailUrl:  { url: 'https://telegra.ph/file/0691935a017b74bc2e49b.jpg'},
+                    thumbnailUrl:  { url: 'https://i.imgur.com/U26K4xG.jpeg'},
                     mediaType: 2,
-                    mediaUrl: 'https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K',
-                    sourceUrl: `https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K`
+                    mediaUrl: 'https://wa.me/919883457657?text=𝗛𝗘𝗟𝗢 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋',
+                    sourceUrl: `https://wa.me/919883457657?text=𝗛𝗘𝗟𝗢 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋`
                 },
             },
         };
@@ -66,28 +66,27 @@ command(
         type: 'misc'
         },
     async(message) => {
-        let { data } = await axios.get('https://api.github.com/repos/anonphoenix007/HOTARO-MD')
+        let { data } = await axios.get('https://api.github.com/repos/OfficialAnjanv2/HOTARO-MD')
         let cap = `> ʜᴏᴛᴀʀᴏ-ᴍᴅ repository stats
 *➠ Total Stars:* ${data.stargazers_count} *stars*
 *➫ Forks:* ${data.forks_count} *forks*
-*➠ Repo:* http://github.com/anonphoenix007/HOTARO-MD
-*➠ Group:* https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk
-*➠ Channel:* https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K
-    > ʜᴏᴛᴀʀᴏ-ᴍᴅ 2024
+*➠ Repo:* https://github.com/OfficialAnjanv2/HOTARO-MD
+*➠ Group:* https://chat.whatsapp.com/JrA3XLQtyka0muECxfYQTR
+    > ʜᴏᴛᴀʀᴏ-ᴍᴅ
 `
         let buttonMessaged = {
-            image: { url: "https://telegra.ph/file/0691935a017b74bc2e49b.jpg"},
+            image: { url: "https://i.imgur.com/U26K4xG.jpeg"},
             caption: cap,
             footer: "☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬",
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
                     title: "☬ ʜᴏᴛᴀʀᴏ-ᴍᴅ ☬",
-                    body: "ʜᴏᴛᴀʀᴏ-ᴍᴅ wabot",
-                    thumbnailUrl: { url: "https://telegra.ph/file/0691935a017b74bc2e49b.jpg"},
+                    body: "𝗛𝗘𝗟𝗢 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋",
+                    thumbnailUrl: { url: "https://i.imgur.com/U26K4xG.jpeg"},
                     mediaType: 4,
-                    mediaUrl: 'https://chat.whatsapp.com/EKdfDFDoi5C3ck88OmbJyk',
-                    sourceUrl: `https://whatsapp.com/channel/0029VaY0Zq32P59piTo5rg0K`,
+                    mediaUrl: 'https://wa.me/919883457657?text=𝗛𝗘𝗟𝗢 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋',
+                    sourceUrl: `https://wa.me/919883457657?text=𝗛𝗘𝗟𝗢 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋`,
                 }
             }
         };
