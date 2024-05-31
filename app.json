@@ -2,7 +2,7 @@
     "name": "hotaro-md",
     "description": "Creative WhatsApp bot based on X-Asena written in Baileys Javascript to make experience on WhatsApp more fun.",
     "repository" : "https://github.com/anonphoenix007/Hotaro-Md",
-    "logo": "https://telegra.ph/file/0691935a017b74bc2e49b.jpg",
+    "logo": "https://i.imgur.com/U26K4xG.jpeg",
     "keywords": ["Hotaro-md", "Hotaro", "Anime bot", "Whatsapp"],
     "success_url": "/",
     "stack": "container",
@@ -30,7 +30,7 @@
       },
       "SUDO": {
         "description": "bot Admin number here",
-        "value": "23470809685xx"
+        "value": "9198834576xx"
       },
       "BOT_NAME": {
         "description": "Bot name here.",
@@ -93,7 +93,7 @@
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2347080968564"
+        "value": "919883457657"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
